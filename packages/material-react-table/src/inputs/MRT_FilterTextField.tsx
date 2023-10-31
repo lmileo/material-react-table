@@ -157,6 +157,7 @@ export const MRT_FilterTextField = ({
   );
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+    event.persist();
     setFilterValue(event.target.value);
     handleChangeDebounced(event);
   };

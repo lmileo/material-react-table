@@ -58,6 +58,7 @@ export const MRT_GlobalFilterTextField = <
   );
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+    event.persist();
     setSearchValue(event.target.value);
     handleChangeDebounced(event);
   };
