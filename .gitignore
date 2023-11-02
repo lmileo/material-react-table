@@ -12,13 +12,10 @@ coverage
 .next/
 out/
 build
-locales
 
 # mrt
 *.log
 .cache
-/dist
-dist
 storybook-static
 
 # misc
